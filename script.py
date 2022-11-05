@@ -13,7 +13,7 @@ DB_USER_PASSWORD = 'password'
 DB_NAME = 'backup/dbnameslist.txt'
 BACKUP_PATH = 'backup/dbbackup'
 
-# current DateTime to create the separate backup folder like "2018-08-17-12:34:33".
+
 DATETIME = time.strftime('%Y-%m-%d_%H:%M:%S')
 TODAYBACKUPPATH = BACKUP_PATH + '/' + DATETIME
 
